@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_page</title>
+    <style>
+        .navbar {
+            background-color: rgb(147, 150, 222);
+            margin: 3px;
+            padding: 2px;
+            display: flex;
+            border: 2px solid black;
+        }
+
+        .heading {
+
+            color: rgb(201, 43, 43);
+            font-size: large;
+            text-align: center;
+        }
+        .login_C2 {
+            margin: 23px;
+            text-align: center;
+            color: rgb(15, 13, 11);
+        }
+
+        login_C2 a {
+            text-decoration: none;
+        }
+
+        .bgimg {
+            width: 100%;
+            height: 100vh;
+            background-image: url('../Assets/Images/loginbg1.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body style="border: 2px solid tomato;">
+    <div class="bgimg">
+        <div class="navbar">
+            <div>
+                <img src="../Assets/Images/Chef_logo.avif" alt="Chef_logo" width="80px" height="80px">
+            </div>
+            <div class="heading">
+                <h3 style="text-align:center">Login for Venky's Cheff</h3>
+            </div>
+        </div>
+        <div class="login_C2">
+            <form>
+                <label for="uname">User Name:</label>
+                <input type="text" id="uname" name="uname"><br><br>
+                <label for="pword">Password:</label>
+                <input type="text" id="pword" name="pword"><br><br>
+                <input type="submit" value="Submit"><br><br>
+                <a href="Registration form.html">? Register for new Cheff</a>
+
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

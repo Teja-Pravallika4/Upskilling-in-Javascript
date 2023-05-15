@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+    <style>
+        @media only screen and (max-width: 600px){
+            body {
+    background-color: lightblue;
+  }
+        }
+        .Elements ul {
+            display: flex;
+        }
+
+        .Elements ul li {
+            list-style-type: none;
+            flex-grow: 1;
+            margin: 40px;
+            padding: 30px;
+            /* text-align: center; */
+        }
+
+        .Elements ul li a {
+            text-decoration: none;
+            /* flex-grow: 3; */
+            font-family: Arial, Helvetica, sans-serif;
+            color: brown;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .Elements ul li a:hover {
+            background-color: orange;
+            color: black;
+        }
+
+        .Container1 {
+            display: flex;
+            background-color: aqua;
+        }
+        #logo1 {
+            margin: 20px;
+        }
+        .Profiles{
+            display: flex;
+            
+        }
+        .Profiles div{
+            margin: 10px;
+            padding: 30px;
+        }
+        .Container2{
+            display: flex;
+        }
+        .Icons ul{
+            display: flex;
+        }
+        .Icons ul li{
+            list-style-type: none;
+            margin: 3px;
+            padding: 5px;
+        }
+        .Footer{
+            display: flex;
+            background-color: burlywood;
+        }
+        .Footer div{
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body style="border: 3px solid tomato">
+    <div>
+        <div class="Container1">
+            <div>
+                <img src="../Assets/Images/Chef_logo.avif" alt="Chef_logo" width="160px" height="150px" id="logo1">
+            </div>
+            <div class="Elements">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <img src="../Assets/Images/Chef_banner1.webp" alt="Banner1" width="100%">
+        </div>
+        <div class="Container2">
+            <div >
+                <h3>Speciality of Chefs:</h3>
+                <div class="Profiles">
+                    <div>
+                        <img src="../Assets/Images/Chef_profile1.png" alt="Profile1" width="70px" >
+                        <h4>Description:</h4>
+                        <p>Name: Pravallika<br>
+                            Speciality in: Chicken kheema</p>
+                    </div>
+                    <div>
+                        <img src="../Assets/Images/Chef_profile2.jfif" alt="Profile2" width="70px">
+                        <h4>Description:</h4>
+                        <p>Name: Deeksha <br>
+                            Speciality in: Chicken Nuggets
+                        </p>
+                    </div>
+                    <div>
+                        <img src="../Assets/Images/Chef_profile3.png" alt="Profile3" width="70px">
+                        <h4>Description:</h4>
+                        <p>Name: Venky <br>
+                            Speciality in: Chicken Makhani
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <video width="340" height="280" controls autoplay>
+                    <source src="../Assets/Videos/Chef_video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="Footer">
+            <div>
+                <h4>Meet Specialist Cheffs</h4>
+            </div>
+            <div class="Icons">
+                <h5>Contact_Us</h5>
+                <ul>
+                    <li><a href="#"><img src="../Assets/Images/Instagram_icon.jfif" width="20px"></a></li>
+                    <li><a href="#"><img src="../Assets/Images/Facebook_icon.jfif" width="20px"></a></li>
+                    <li><a href="#"><img src="../Assets/Images/Gmail_icon.jfif" width="20px"></a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Address:</h5>
+                <p>72/154,<br>
+                    Hotel Venky's Cheffs,<br>
+                    Banglore-518003.
+                </p>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d194868.8052500316!2d77.68859088413718!3d12.921734033898996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1682179757416!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <style>
+        .Container1 {
+            /* width:100px; */
+            background-color: powderblue;
+            padding: 30px;
+            display: flex;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .Object1 ul {
+            display: flex;
+            margin: 30px;
+        }
+        .Object1 ul li {
+            text-decoration: none;
+            list-style-type: none;
+            flex-grow: 1;
+            margin: 20px;
+            padding: 20px;
+        }
+        .Object1 ul li a {
+            text-decoration: none;
+            display: inline-block;
+            color: rgb(61, 21, 3);
+            text-transform: uppercase;
+        }
+        .Object1 ul li a:hover {
+            color: blue;
+            background-color: tomato;
+        }
+        .service li {
+            list-style-type: square;
+        }
+        .service li a {
+            text-decoration: none;
+        }
+        .media {
+            display: flex;
+
+
+        }
+        .media div {
+            flex-grow: 1;
+            margin-right: 300px;
+
+        }
+
+        .Footer {
+            display: flex;
+        }
+
+        .footer1 {
+            margin-left: 300px;
+        }
+    </style>
+</head>
+
+<body style="border: 3px solid orange;">
+    <div>
+        <div class="Container1">
+            <div class="logo">
+                <img src="../Assets/Images/logo_v.jpg" alt="lk">
+            </div>
+            <div class="Object1">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact_Us</a></li>
+                    <li><a href="#">About_Us</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div>
+            <img src="../Assets/Images/flower.jpg" alt="banner" width="100%" height="600px">
+        </div>
+        <div class="media">
+            <div>
+                <h1>Services Provided:</h1>
+                <ul class="service">
+                    <li><a href="../HTML/Page1.html">HTML</li>
+                    <li><a href="../HTML/Page2.html">CSS</li>
+                    <li><a href="../HTML/Page3.html">JS</li>
+                    <li><a href="../HTML/Page4.html">React JS</li>
+                </ul>
+            </div>
+            <div>
+                <video width="340" height="280" controls autoplay>
+                    <source src="../Assets/Videos/bird.mp4" type="video/mp4">
+                    <!-- <source src="movie.ogg" type="video/ogg"> -->
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <div class="Footer">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d124410.58057588448!2d77.6732672!3d12.9826816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1682102225222!5m2!1sen!2sin"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer1">
+                <h5>Address: </h5>
+                <p>
+                    H.No:1/147,<br>
+                    Ramagondanahalli village,<br>
+                    Kundanahalli Mandal,<br>
+                    Banglore-560078.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
