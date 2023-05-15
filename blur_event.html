@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" onfocus="highlight(this)">
+    <button type="button">Button</button>
+    <script>
+        function highlight(klm){
+            klm.style.background="yellow";
+        }
+    </script>
+    <input type="text" onblur="alert('Get_out_venky')">
+    <button type="button">Button</button>
+    <select onchange="alert('You have changed the option');"
+    
+        <option> Select</option>
+        <option> Male</option>
+        <option> Female</option>
+    </select>
+
+    <form action="#" method="post" onsubmit="alert('You have submitted the form')";>
+    <label for="FirstName">First Name</label>
+    <input type="text" name="FirstName" required>
+
+    <label for="LastName">Last Name</label>
+    <input type="text" name="LastName" required>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
